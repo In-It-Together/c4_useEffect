@@ -1,0 +1,65 @@
+.spriteEnterRight {
+  animation: comeInFromRight 2s;
+  animation-fill-mode: forwards;
+}
+
+.spriteEnterLeft {
+  animation: comeInFromLeft 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes comeInFromLeft {
+  0% {
+    transform: translateX(-300%);
+  }
+
+  100% {
+    transform: translateX(0%);
+    animation: jumpAround 2s infinite;
+    animation-direction: alternate-reverse;
+  }
+}
+
+@keyframes comeInFromRight {
+  0% {
+    transform: translateX(300%);
+  }
+
+  100% {
+    transform: translateX(0%);
+    animation: jumpAround 2s infinite;
+    animation-direction: alternate-reverse;
+  }
+}
+
+@keyframes jumpAround {
+  0% {
+    transform: translate(0%, 0%);
+  }
+
+  15% {
+    transform: translate(1%, -7%);
+  }
+
+  35% {
+    transform: translate(2%, -14%);
+  }
+
+  50% {
+    transform: translate(3%, -21%);
+  }
+
+  65% {
+    transform: translate(4%, -14%);
+  }
+
+  85% {
+    transform: translate(5%, -7%);
+  }
+
+  100% {
+    transform: translate(6%, 0%);
+  }
+}
+
+
