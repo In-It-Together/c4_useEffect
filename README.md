@@ -108,4 +108,4 @@ Be creative, be silly, and use the internet for inspiration! This is an opportun
 
 ## Participant Submissions
 
-This event has not started yet! Come back later!
+Shawn Huang Fernandes - Pokemon Dance Party: https://github.com/In-It-Together/c4_useEffect/tree/shf
